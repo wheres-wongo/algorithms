@@ -1,5 +1,6 @@
 #pragma once
 
+<<<<<<< HEAD
 /** Node Class
  * These are the building blocks of the linked list.
  */
@@ -16,15 +17,14 @@ class Node {
   friend class Stack;
 };
 
+=======
+>>>>>>> upstream/master
 /** Stack
  * A container class that stores data using a LIFO
  * (last in, first out) scheme.
  */
 class Stack {
  private:
-  Node* head;
-  unsigned int len;
-
  public:
   Stack();
   ~Stack();
