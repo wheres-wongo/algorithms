@@ -21,3 +21,5 @@ void mergesort(int*, int);
 void quicksort(int*, int);
 
 void hybridsort(int*, int);
+
+void shellsort(int *arr, int n);

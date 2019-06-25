@@ -7,6 +7,7 @@ class Node {
  private:
   int data;
   Node* next;
+  Node* prev;
 
  public:
   Node(int d) : data(d) { next = nullptr; }
@@ -27,6 +28,9 @@ class Stack {
  public:
   Stack();
   ~Stack();
+
+  friend class Node;
+
 
   /** size()
    * Returns the size of the stack.
