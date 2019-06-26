@@ -1,6 +1,7 @@
 #pragma once
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** Node Class
  * These are the building blocks of the linked list.
  */
@@ -19,12 +20,18 @@ class Node {
 
 =======
 >>>>>>> upstream/master
+=======
+#include "LinkedList.hpp"
+
+>>>>>>> upstream/master
 /** Stack
  * A container class that stores data using a LIFO
  * (last in, first out) scheme.
  */
 class Stack {
  private:
+  LinkedList* list;
+
  public:
   Stack();
   ~Stack();
