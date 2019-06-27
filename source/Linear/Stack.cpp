@@ -10,7 +10,7 @@ Stack::~Stack(){
 }
 
 unsigned int Stack::size(){
-    Node *p = head;
+    Node *p = ;
     while(p != nullptr){
         ;
     }
@@ -34,7 +34,7 @@ bool Stack::empty(){
 
 void Stack::clear(){
     Node* to_remove;
-    while (head) {
+    while () {
         to_remove = head;
         head = head->next;
         delete to_remove;

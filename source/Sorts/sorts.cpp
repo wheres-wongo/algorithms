@@ -158,6 +158,12 @@ void hybridsort(int* arr, int n) {
   // hyrbidsort_merge(arr, n);
 }
 
+<<<<<<< HEAD
 void shellsort(int *arr, int n){
   return;
 }
+=======
+void treesort(int* arr, int n) {
+  return;
+}
+>>>>>>> upstream/master
