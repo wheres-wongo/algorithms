@@ -1,5 +1,6 @@
 #pragma once
 
+<<<<<<< HEAD:source/Linear/Stack.hpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 /** Node Class
@@ -22,6 +23,9 @@ class Node {
 >>>>>>> upstream/master
 =======
 #include "LinkedList.hpp"
+=======
+#include "../LinkedList/LinkedList.hpp"
+>>>>>>> upstream/master:source/Stack/Stack.hpp
 
 >>>>>>> upstream/master
 /** Stack
