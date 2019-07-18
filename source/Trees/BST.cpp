@@ -44,60 +44,6 @@ bool BST::search(int data) {
   return search(data, root);
 }
 
-<<<<<<< HEAD
-Node* BST::remove(int data, Node* n){
-    if(!n) return n;
-    if(data < n->data){
-        n->left = remove(data, n->left);
-    }
-    else if(data > n->data){
-        n->right = remove(data, n->right);
-    }
-    else{
-        //no children
-        if(n->left == nullptr && n->right == nullptr){
-            if(n->data == data){
-                n = nullptr;
-            }
-            delete n;
-            n = nullptr;
-        }
-        //one child on the right
-        else if(n->left == nullptr){
-            Node *p = n;
-            n = n->right;
-            delete p;
-        }
-        //one child on the left
-        else if(n->right == nullptr){
-            Node *p = n;
-            n = n->left;
-            delete p;
-        }
-        //two children
-        else{
-            Node *min = n->right;
-            while(min->left != nullptr){
-                min = min->left;
-            }
-            n->data = min->data;
-            n->right = remove(min->data, n->right);
-            
-            
-            /*Node *min;
-            while(n->left != nullptr){
-                min = n->left;
-            }
-            n->data = min->data;
-            n->right = remove(min->data, n->right);
-            */
-        }
-    }
-    return n;   
-}
-void BST::remove(int data) {
-    remove(data, root);
-=======
 Node* BST::remove(int data, Node* n) {
   if (!n) {
     return nullptr;
@@ -135,7 +81,6 @@ Node* BST::remove(int data, Node* n) {
 
 void BST::remove(int data) {
   root = remove(data, root);
->>>>>>> upstream/master
 }
 
 inline int max(int a, int b) {

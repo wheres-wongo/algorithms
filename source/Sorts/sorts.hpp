@@ -24,9 +24,6 @@ void quicksort(int*, int);
 /** HybridSort */
 void hybridsort(int*, int);
 
-<<<<<<< HEAD
-void shellsort(int *arr, int n);
-=======
 /** Tree Sort */
 void treesort(int*, int);
 
@@ -41,4 +38,3 @@ void swap(int*, int*);
 void merge(int*, int, int);
 
 int partition(int*, int, int);
->>>>>>> upstream/master
